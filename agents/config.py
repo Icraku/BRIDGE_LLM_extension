@@ -33,6 +33,23 @@ class SectionType(Enum):
     LABOUR_BIRTH = "labour_birth"
     INFANT_DETAILS = "infant_details"
 
+class NARSectionType(Enum):
+    """Section types for NAR."""
+    # ==================== PAGE 1 ====================
+    INFANT_DETAILS = "infant_details"              # A
+    MOTHER_DETAILS = "mother_details"              # B
+    MATERNAL_HISTORY = "maternal_history"          # C
+    INFANT_HISTORY = "infant_history"              # D
+    EXAMINATION = "examination"                    # E
+    
+    # ==================== PAGE 2 ====================
+    GENERAL_EXAMINATION = "general_examination"    # F1
+    FURTHER_EXAMINATION = "further_examination"    # F2
+    SUMMARY = "summary"                            # G
+    INVESTIGATIONS = "investigations"              # H
+    DIAGNOSIS = "diagnosis"                        # I
+    INTERVENTIONS = "interventions"                # J
+    PLAN = "plan"                                  # K
 
 class ClinicalCategory(Enum):
     """Clinical significance categories."""
