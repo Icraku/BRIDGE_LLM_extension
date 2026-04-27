@@ -180,9 +180,46 @@ CLINICAL_CONCEPT_FIELDS = {
             ]
         }
     },
+
     "NAR": {
-        1: {},
-        2: {}
+
+        # ==================== PAGE 1 ====================
+        1: {
+
+            NARSectionType.MATERNAL_HISTORY: [
+                "Maternal history notes",
+            ],
+
+            NARSectionType.INFANT_HISTORY: [
+                "Infant presenting problems",
+                "Any other important and family / social history?",
+            ],
+        },
+
+        # ==================== PAGE 2 ====================
+        2: {
+
+            # F2 → HIGH VALUE LLM SECTION
+            NARSectionType.FURTHER_EXAMINATION: [
+                "Neuro",
+                "Further examination details",
+            ],
+
+            # G
+            NARSectionType.SUMMARY: [
+                "Summary of presentation and problems",
+            ],
+
+            # H
+            NARSectionType.INVESTIGATIONS: [
+                "Other investigations ordered",
+            ],
+
+            # I
+            NARSectionType.DIAGNOSIS: [
+                "Other diagnoses",
+            ],
+        }
     },
 }
 
