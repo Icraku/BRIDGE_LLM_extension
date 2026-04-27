@@ -71,14 +71,74 @@ ITF_SECTION_VARIATIONS = {
 }
 
 NAR_SECTION_VARIATIONS = {
-    # To be defined based on NAR form structure
-    "CLINICAL_FINDINGS": [
-        "Clinical Findings",
-        "Clinical findings",
+
+    # ==================== PAGE 1 ====================
+
+    "INFANT_DETAILS": [
+        "Infant Details",
+        "Infant details",
+        "A: Infant Details",
     ],
-    "ASSESSMENT": [
-        "Assessment",
-        "assessment",
+
+    "MOTHER_DETAILS": [
+        "Mother Details",
+        "Mother's Details",
+        "B: Mother's Details",
+    ],
+
+    "MATERNAL_HISTORY": [
+        "Mother's problems during pregnancy",
+        "Maternal history",
+        "C: Mother's problems during pregnancy/labour",
+    ],
+
+    "INFANT_HISTORY": [
+        "Infant's presenting problems",
+        "Infant history",
+        "D: Infant's presenting problems",
+    ],
+
+    "EXAMINATION": [
+        "History and examination",
+        "Anthropometry & Vital signs",
+        "Examination",
+        "E: History and examination",
+    ],
+
+    # ==================== PAGE 2 ====================
+
+    "GENERAL_EXAMINATION": [
+        "General examination",
+        "F1: General examination",
+    ],
+
+    "FURTHER_EXAMINATION": [
+        "Further examination",
+        "F2: Further examination",
+    ],
+
+    "SUMMARY": [
+        "Summary of presentation and problems",
+        "G: Summary of presentation and problems",
+        "List problems",
+    ],
+
+    "INVESTIGATIONS": [
+        "Investigations ordered",
+        "H: Investigations ordered",
+        "Other investigations ordered",
+    ],
+
+    "DIAGNOSIS": [
+        "Admission Diagnoses",
+        "Impression",
+        "I: Admission Diagnoses or Impression",
+    ],
+
+    "INTERVENTIONS": [
+        "Interventions prescribed",
+        "Preventive care",
+        "J: Interventions prescribed",
     ],
 }
 
